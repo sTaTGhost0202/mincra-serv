@@ -1,39 +1,80 @@
-[23:39:28] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.9
-[23:39:28] [ForkJoinPool-1-worker-2/WARN]: The mod "luna" contains invalid entries in its mod json:
-- Unsupported root entry "credits" at line 10 column 14
-- Unsupported root entry "incompatible" at line 34 column 19
-[23:39:28] [ForkJoinPool-1-worker-4/WARN]: The mod "dungeons_arise" contains invalid entries in its mod json:
-- Unsupported root entry "credits" at line 12 column 12
-[23:39:28] [ForkJoinPool-1-worker-2/WARN]: The mod "openblocks" contains invalid entries in its mod json:
-- Unsupported root entry "client" at line 24 column 11
-[23:39:28] [ForkJoinPool-1-worker-3/WARN]: Mod explorify uses the version v1.3.0-mc1.20 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v1'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[23:39:28] [ForkJoinPool-1-worker-3/WARN]: Mod oceansdelight uses the version fdrf-fabric-1.0.2-1.20 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'fdrf'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[23:39:28] [ForkJoinPool-1-worker-2/WARN]: Mod geophilic uses the version v2.1.0-mc1.20u1.20.2 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v2'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[23:39:28] [ForkJoinPool-1-worker-1/WARN]: Mod magna uses the version ${version} which isn't compatible with Loader's extended semantic version format (Could not parse version number component '${version}'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[23:39:28] [ForkJoinPool-1-worker-2/WARN]: Mod ends_delight uses the version refabricated-1.20.1-alpha-1.0 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'refabricated'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[23:39:28] [ForkJoinPool-1-worker-1/WARN]: Mod com_github_rtyley_animated-gif-lib-for-java uses the version animated-gif-lib-1.7 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'animated'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[23:39:29] [ForkJoinPool-1-worker-4/WARN]: Mod wither_spawn_fix uses the version MC1.20.1-1.0.0 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'MC1'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[23:39:29] [ForkJoinPool-1-worker-2/WARN]: Mod io_netty_netty-codec-socks uses the version 4.1.82.Final which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'Final'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[23:39:29] [ForkJoinPool-1-worker-3/WARN]: Mod netherdepthsupgrade uses the version fabric-3.1.1-1.20 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[23:39:29] [ForkJoinPool-1-worker-2/WARN]: Mod io_netty_netty-codec-http uses the version 4.1.82.Final which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'Final'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[23:39:29] [ForkJoinPool-1-worker-2/WARN]: Mod io_netty_netty-handler-proxy uses the version 4.1.82.Final which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'Final'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[23:39:29] [main/WARN]: Mod resolution failed
-[23:39:29] [main/INFO]: Immediate reason: [HARD_DEP_NO_CANDIDATE create_questing 1.0.0 {depends ftbquests @ [*]}, ROOT_FORCELOAD_SINGLE create_questing 1.0.0]
-[23:39:29] [main/INFO]: Reason: [HARD_DEP create_questing 1.0.0 {depends ftbquests @ [*]}, HARD_DEP soulsweapons 1.2.1-1.20.1-fabric {depends fabricloader @ [>=0.16.10]}]
-[23:39:29] [main/INFO]: SERVER environment disabled: [fabric-renderer-api-v1, fabric-keybindings-v0, bhmenu, auudio, animation_overhaul, irisflw, eatinganimationid, geckoanimfix, fabric-sound-api-v1, fallingleaves, noreportbutton, prism, asteorbar, leawind_third_person, fabric-model-loading-api-v1, itemborders, iris, emitrades, resourcepackoverrides, lootbeams, axolotlbuckets, fabric-blockrenderlayer-v1, sodium, fabric-renderer-registries-v1, chat_heads, sodiumoptionsapi, cat_jam, languagereload, zoomify, sodiumdynamiclights, lazy-language-loader, entity_model_features, entity_texture_features, fastipping, betterbeds, modmenu, ambientsounds, mousetweaks, sodium-extra, distraction_free_recipes, blur, fabric-screen-api-v1, boatiview, fabric-renderer-indigo, mindfuldarkness, reeses-sodium-options, highlighter, bobby, flywheel, notenoughanimations, citresewn, legendarytooltips, fabric-rendering-v0, fabric-key-binding-api-v1, fabric-rendering-v1, chatanimation, spruceui, searchables, disable_custom_worlds_advice, amecs, entityculling, indium, immediatelyfast, fabric-client-tags-api-v1, seasonhud, ae2-emi-crafting, emiffect, visuality, nicer-skies, ae2mtfix, sortedenchantments, badoptimizations, fabric-models-v0, euphoria_patcher, sdrp, loadmyresources, noindium, presencefootsteps]
-[23:39:29] [main/INFO]: Fix: add [add:ftbquests 1 ([(-∞,∞)])], remove [], replace [[fabricloader 0.16.9] -> add:fabricloader 0.16.10 ([[0.16.10,∞)])]
-[23:39:29] [main/ERROR]: Incompatible mods found!
-net.fabricmc.loader.impl.FormattedException: Some of your mods are incompatible with the game or each other!
-A potential solution has been determined, this may resolve your problem:
-	 - Install ftbquests, any version.
-	 - Replace mod 'Fabric Loader' (fabricloader) 0.16.9 with version 0.16.10 or later.
-More details:
-	 - Mod 'Create Questing' (create_questing) 1.0.0 requires any version of ftbquests, which is missing!
-	 - Mod 'Marium's Soulslike Weaponry' (soulsweapons) 1.2.1-1.20.1-fabric requires version 0.16.10 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.9!
-	at net.fabricmc.loader.impl.FormattedException.ofLocalized(FormattedException.java:51) ~[fabric-loader-0.16.9.jar:?]
-	at net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:196) ~[fabric-loader-0.16.9.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:146) ~[fabric-loader-0.16.9.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:68) ~[fabric-loader-0.16.9.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.9.jar:?]
-	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.9.jar:?]
-	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
+[00:03:16] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.10
+[00:03:16] [main/INFO]: Loading 4 mods:
+	- fabricloader 0.16.10
+	   \-- mixinextras 0.4.1
+	- java 17
+	- minecraft 1.20.1
+[00:03:16] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/mincra-serv/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[00:03:21] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[00:03:23] [main/INFO]: Loaded 7 recipes
+[00:03:23] [main/INFO]: Loaded 1271 advancements
+[00:03:24] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[00:03:24] [Server thread/INFO]: Loading properties
+[00:03:24] [Server thread/INFO]: Default game type: SURVIVAL
+[00:03:24] [Server thread/INFO]: Generating keypair
+[00:03:24] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:03:24] [Server thread/INFO]: Using epoll channel type
+[00:03:24] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[00:03:24] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[00:03:24] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[00:03:24] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[00:03:24] [Server thread/INFO]: Preparing level "world"
+[00:03:30] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[00:03:30] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[00:03:30] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[00:03:31] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[00:03:31] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[00:03:32] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[00:03:32] [Worker-Main-1/INFO]: Preparing spawn area: 1%
+[00:03:33] [Worker-Main-3/INFO]: Preparing spawn area: 1%
+[00:03:33] [Worker-Main-2/INFO]: Preparing spawn area: 2%
+[00:03:34] [Worker-Main-3/INFO]: Preparing spawn area: 3%
+[00:03:34] [Worker-Main-1/INFO]: Preparing spawn area: 5%
+[00:03:35] [Worker-Main-3/INFO]: Preparing spawn area: 6%
+[00:03:35] [Worker-Main-1/INFO]: Preparing spawn area: 9%
+[00:03:36] [Worker-Main-3/INFO]: Preparing spawn area: 10%
+[00:03:36] [Worker-Main-1/INFO]: Preparing spawn area: 12%
+[00:03:37] [Worker-Main-1/INFO]: Preparing spawn area: 14%
+[00:03:37] [Worker-Main-3/INFO]: Preparing spawn area: 16%
+[00:03:38] [Worker-Main-2/INFO]: Preparing spawn area: 17%
+[00:03:38] [Worker-Main-3/INFO]: Preparing spawn area: 20%
+[00:03:39] [Worker-Main-1/INFO]: Preparing spawn area: 23%
+[00:03:39] [Worker-Main-1/INFO]: Preparing spawn area: 25%
+[00:03:40] [Worker-Main-2/INFO]: Preparing spawn area: 28%
+[00:03:40] [Worker-Main-1/INFO]: Preparing spawn area: 31%
+[00:03:41] [Worker-Main-1/INFO]: Preparing spawn area: 33%
+[00:03:41] [Worker-Main-1/INFO]: Preparing spawn area: 37%
+[00:03:42] [Worker-Main-1/INFO]: Preparing spawn area: 40%
+[00:03:42] [Worker-Main-3/INFO]: Preparing spawn area: 43%
+[00:03:43] [Worker-Main-2/INFO]: Preparing spawn area: 45%
+[00:03:43] [Worker-Main-2/INFO]: Preparing spawn area: 48%
+[00:03:44] [Worker-Main-1/INFO]: Preparing spawn area: 51%
+[00:03:44] [Worker-Main-3/INFO]: Preparing spawn area: 54%
+[00:03:45] [Worker-Main-1/INFO]: Preparing spawn area: 56%
+[00:03:45] [Worker-Main-1/INFO]: Preparing spawn area: 58%
+[00:03:46] [Worker-Main-2/INFO]: Preparing spawn area: 62%
+[00:03:46] [Worker-Main-2/INFO]: Preparing spawn area: 66%
+[00:03:47] [Worker-Main-2/INFO]: Preparing spawn area: 68%
+[00:03:47] [Worker-Main-2/INFO]: Preparing spawn area: 71%
+[00:03:48] [Worker-Main-2/INFO]: Preparing spawn area: 73%
+[00:03:48] [Worker-Main-1/INFO]: Preparing spawn area: 76%
+[00:03:49] [Worker-Main-1/INFO]: Preparing spawn area: 80%
+[00:03:49] [Worker-Main-2/INFO]: Preparing spawn area: 83%
+[00:03:50] [Worker-Main-3/INFO]: Preparing spawn area: 85%
+[00:03:50] [Worker-Main-3/INFO]: Preparing spawn area: 87%
+[00:03:51] [Worker-Main-3/INFO]: Preparing spawn area: 90%
+[00:03:51] [Worker-Main-1/INFO]: Preparing spawn area: 93%
+[00:03:52] [Worker-Main-3/INFO]: Preparing spawn area: 97%
+[00:03:52] [Server thread/INFO]: Time elapsed: 22307 ms
+[00:03:52] [Server thread/INFO]: Done (28.030s)! For help, type "help"
+[00:05:07] [Server thread/INFO]: Stopping the server
+[00:05:07] [Server thread/INFO]: Stopping server
+[00:05:07] [Server thread/INFO]: Saving players
+[00:05:07] [Server thread/INFO]: Saving worlds
+[00:05:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[00:05:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[00:05:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[00:05:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:05:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:05:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:05:10] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
