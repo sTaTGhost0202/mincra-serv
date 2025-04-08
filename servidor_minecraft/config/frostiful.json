@@ -50,8 +50,8 @@
     "skateUpgradeTemplateGenerateChance": 0.33
   },
   "freezingConfig": {
-    "doPassiveFreezing": true,
-    "doWindSpawning": true,
+    "doPassiveFreezing": false,
+    "doWindSpawning": false,
     "windSpawnStrategy": "POINT",
     "spawnWindInAir": true,
     "windDestroysTorches": true,

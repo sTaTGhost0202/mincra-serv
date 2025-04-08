@@ -4,7 +4,7 @@
       "attributes": [
         {
           "id": "generic.max_health",
-          "value": 2.0,
+          "value": 10.0,
           "operation": "ADDITION"
         }
       ]
@@ -83,7 +83,7 @@
       "attributes": [
         {
           "id": "generic.max_health",
-          "value": 2.0,
+          "value": 10.0,
           "operation": "ADDITION"
         }
       ]
@@ -161,7 +161,7 @@
       "attributes": [
         {
           "id": "generic.max_health",
-          "value": 6.0,
+          "value": 60.0,
           "operation": "ADDITION"
         },
         {
@@ -271,7 +271,7 @@
       "attributes": [
         {
           "id": "generic.max_health",
-          "value": 4.0,
+          "value": 20.0,
           "operation": "ADDITION"
         }
       ]
@@ -294,7 +294,7 @@
       "attributes": [
         {
           "id": "generic.max_health",
-          "value": 6.0,
+          "value": 40.0,
           "operation": "ADDITION"
         },
         {
@@ -401,7 +401,7 @@
       "attributes": [
         {
           "id": "generic.max_health",
-          "value": 4.0,
+          "value": 20.0,
           "operation": "ADDITION"
         }
       ]

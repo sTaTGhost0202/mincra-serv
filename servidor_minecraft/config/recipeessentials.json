@@ -8,7 +8,7 @@
     "enableBetterRecipebookSorting": true
   },
   "recipebookShowAll": {
-    "desc:": "Enables the recipe book to show all recipes from the get go, also enables modded recipes to show and disables network/login overhead: default:true",
+    "desc:": "Enables the recipe book to show all recipes from the get go: default:true",
     "recipebookShowAll": true
   },
   "fastItemComparisons": {

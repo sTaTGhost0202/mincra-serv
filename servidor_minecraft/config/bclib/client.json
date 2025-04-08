@@ -1,7 +1,7 @@
 {
   "version": {
-    "didShowWelcome [default: false]": false,
-    "check [default: true]": true
+    "didShowWelcome [default: false]": true,
+    "check [default: true]": false
   },
   "ui": {
     "showUpdateInfo [default: true]": true,
@@ -11,11 +11,11 @@
     "notTheDonorType [default: true]": true
   },
   "auto_sync": {
-    "enabled [default: true]": true,
-    "acceptConfigs [default: true]": true,
-    "acceptFiles [default: true]": true,
-    "acceptMods [default: true]": true,
-    "displayModInfo [default: true]": true,
+    "enabled [default: true]": false,
+    "acceptConfigs [default: true]": false,
+    "acceptFiles [default: true]": false,
+    "acceptMods [default: true]": false,
+    "displayModInfo [default: true]": false,
     "debugHashes [default: false]": false
   },
   "rendering": {

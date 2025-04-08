@@ -4,12 +4,12 @@
   //The y-offset is subtracted from the y pos at the bottom of the screen. (Ex: 0 would make it at the very bottom of the screen)
   //X-Offset Default: 180
   //Y-Offset Default: 15
-  "mana_xoffset": 180,
+  "mana_xoffset": 250,
   "mana_yoffset": 15,
   //Determines whether mana should only display if you have a mana item in your hand.
   //Client-Sided, Accepts "true" or "false"
   //Default: false (always shows mana)
-  "displayManaWithItem": false,
+  "displayManaWithItem": true,
   //Chance for a soul to drop when killing players and creatures using a soul scythe (bosses always drop a soul)
   //The number should follow these bounds: 0 <= x <= 1.0
   //Default: 0.05 (1/20)

@@ -28,17 +28,49 @@
   // ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   "modifiers": [
     {
-      "entity_regex": "examplemod:example_entity",
+      "entity_regex": "minecells:conjuntivius",
       "apply_chance": 100.0,
       "attributes": [
         {
           "attribute": "minecraft:generic.attack_damage",
-          "value": 10.0,
+          "value": 5.0,
           "operation": "ADDITION"
         },
         {
-          "attribute": "minecraft:generic.attack_speed",
-          "value": 0.2,
+          "attribute": "minecraft:generic.max_health",
+          "value": 3.5,
+          "operation": "MULTIPLY_BASE"
+        }
+      ]
+    },
+    {
+      "entity_regex": "adventurez:blackstone_golem",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "value": 4.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 3,
+          "operation": "MULTIPLY_BASE"
+        }
+      ]
+    },
+    {
+      "entity_regex": "archon:null",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "value": 4.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 0.5,
           "operation": "MULTIPLY_BASE"
         }
       ]

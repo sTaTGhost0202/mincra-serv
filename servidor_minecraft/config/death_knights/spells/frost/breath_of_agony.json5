@@ -7,7 +7,7 @@
   "length": 3.0,
   // The damage scaling of the spell. This multiplies the base frost power of the caster to output damage.
   // Default: 0.5x
-  "damage_frost_scaling": 0.35,
+  "damage_frost_scaling": 0.65,
   // The multiplier for critical damage. This is multiplied to the damage if the spell crits.
   // Default: 2.0x
   "damage_critical_scaling": 2.0,

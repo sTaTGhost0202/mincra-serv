@@ -43,23 +43,62 @@
   // ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   "advanced_modifiers": [
     {
-      "entity_regex": "examplemod:example_entity",
+      "entity_regex": "^(?!minecraft:player$).*",
       "apply_chance": 100.0,
       "time_regex": "*",
-      "dimension_regex": "(minecraft:overworld|minecraft:the_nether)",
-      "biome_regex": "(minecraft:plains|minecraft:ocean|minecraft:.*_hills|minecraft:warped_forest)",
-      "difficulty_regex": "(easy|normal|hard)",
+      "dimension_regex": "minecraft:the_nether",
+      "biome_regex": "*",
+      "difficulty_regex": "hard",
       "default_hp": -1.0,
       "only_apply_to_babies": false,
       "attributes": [
         {
           "attribute": "minecraft:generic.attack_damage",
-          "value": 10.0,
+          "value": 3.0,
           "operation": "ADDITION"
         },
         {
           "attribute": "minecraft:generic.attack_speed",
-          "value": 0.2,
+          "value": 0.15,
+          "operation": "MULTIPLY_BASE"
+        }
+      ]
+    },
+    {
+      "entity_regex": "^(?!minecraft:player$).*",
+      "apply_chance": 100.0,
+      "time_regex": "*",
+      "dimension_regex": "minecraft:the_end",
+      "biome_regex": "*",
+      "difficulty_regex": "hard",
+      "default_hp": -1.0,
+      "only_apply_to_babies": false,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "value": 5.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.attack_speed",
+          "value": 0.20,
+          "operation": "MULTIPLY_BASE"
+        }
+      ]
+    },
+    {
+      "entity_regex": "mythicmounts:.*",
+      "apply_chance": 100.0,
+      "time_regex": ".*",
+      "dimension_regex": ".*",
+      "biome_regex": ".*",
+      "difficulty_regex": ".*",
+      "default_hp": -1.0,
+      "only_apply_to_babies": false,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 5,
           "operation": "MULTIPLY_BASE"
         }
       ]

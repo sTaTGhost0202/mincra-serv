@@ -23,24 +23,17 @@
   //  
   "entities": [
     {
-      "entity_regex": "examplemod:example_entity",
+      "entity_regex": ".*",
       "effects_to_apply": [
         {
-          "effect_id": "minecraft:poison",
-          "duration": 100,
-          "amplifier": 0,
-          "ambient": true,
-          "show_particles": true
-        },
-        {
-          "effect_id": "minecraft:wither",
-          "duration": 100,
+          "effect_id": "minecells:disarmed",
+          "duration": 200,
           "amplifier": 0,
           "ambient": true,
           "show_particles": true
         }
       ],
-      "minimum_hp": 0,
+      "minimum_hp": 300,
       "only_on_player_hit": false,
       "apply_to_entity_instead_of_player": false
     }

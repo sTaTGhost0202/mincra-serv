@@ -1,4 +1,13 @@
 #.
+#Compatibility between other mods settings
+[compat]
+	#.
+	#Enable ears Compatibility
+	ears = true
+	#.
+	#Enable figura Compatibility
+	figura = true
+#.
 #Global settings for the chest feature
 [chestRenderingGlobal]
 	#.
@@ -30,6 +39,24 @@
 	#Chest feature physics damping
 	#Range: 0.0 ~ 1.0
 	chestDamping = 0.375
+#.
+#Miscellaneous settings
+[misc]
+	#.
+	#Allows you to pat entities by shift right-clicking them!
+	entityPatting = true
+#.
+#Settings for Equippable Items
+[accessory]
+	#.
+	#Render estrogen patches on the player
+	estrogenPatchRender = true
+#.
+#Settings for custom sounds and music
+[sounds]
+	#.
+	#Enable ambient music which starts playing on specific moments
+	ambientMusic = true
 #.
 #Settings for the dream block
 [dreamBlock]
@@ -66,30 +93,3 @@
 	#.
 	#Enable the estrogen button in the create screen
 	enabled = true
-#.
-#Miscellaneous settings
-[misc]
-	#.
-	#Allows you to pat entities by shift right-clicking them!
-	entityPatting = true
-#.
-#Settings for Equippable Items
-[accessory]
-	#.
-	#Render estrogen patches on the player
-	estrogenPatchRender = true
-#.
-#Compatibility between other mods settings
-[compat]
-	#.
-	#Enable ears Compatibility
-	ears = true
-	#.
-	#Enable figura Compatibility
-	figura = true
-#.
-#Settings for custom sounds and music
-[sounds]
-	#.
-	#Enable ambient music which starts playing on specific moments
-	ambientMusic = true

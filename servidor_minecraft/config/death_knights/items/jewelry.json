@@ -1,19 +1,5 @@
 {
   "items": {
-    "death_knights:blood_dk_ring": {
-      "attributes": [
-        {
-          "id": "eternal_attributes:blood",
-          "value": 0.08,
-          "operation": "MULTIPLY_BASE"
-        },
-        {
-          "id": "minecraft:generic.max_health",
-          "value": 0.06,
-          "operation": "MULTIPLY_BASE"
-        }
-      ]
-    },
     "death_knights:unholy_dk_ring": {
       "attributes": [
         {
@@ -56,7 +42,21 @@
         }
       ]
     },
-    "death_knights:blood_dk_necklace": {
+    "death_knights:unholy_dk_necklace": {
+      "attributes": [
+        {
+          "id": "eternal_attributes:unholy",
+          "value": 0.08,
+          "operation": "MULTIPLY_BASE"
+        },
+        {
+          "id": "minecraft:generic.attack_damage",
+          "value": 0.06,
+          "operation": "MULTIPLY_BASE"
+        }
+      ]
+    },
+    "death_knights:blood_dk_ring": {
       "attributes": [
         {
           "id": "eternal_attributes:blood",
@@ -70,15 +70,15 @@
         }
       ]
     },
-    "death_knights:unholy_dk_necklace": {
+    "death_knights:blood_dk_necklace": {
       "attributes": [
         {
-          "id": "eternal_attributes:unholy",
+          "id": "eternal_attributes:blood",
           "value": 0.08,
           "operation": "MULTIPLY_BASE"
         },
         {
-          "id": "minecraft:generic.attack_damage",
+          "id": "minecraft:generic.max_health",
           "value": 0.06,
           "operation": "MULTIPLY_BASE"
         }

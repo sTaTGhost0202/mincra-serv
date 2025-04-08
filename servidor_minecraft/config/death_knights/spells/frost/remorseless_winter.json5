@@ -3,11 +3,11 @@
   // Default: 5 ticks
   "tick_rate": 5,
   // The radius of the spell. This applies for both the particles and damage.
-  // Default: 4 blocks
-  "radius": 4.0,
+  // Default: 2 blocks
+  "radius": 2.0,
   // The damage scaling of the spell. This multiplies the base frost power of the caster to output damage.
   // Default: 0.5x
-  "damage_frost_scaling": 0.25,
+  "damage_frost_scaling": 0.5,
   // The multiplier for critical damage. This is multiplied to the damage if the spell crits.
   // Default: 2.0x
   "damage_critical_scaling": 2.0,

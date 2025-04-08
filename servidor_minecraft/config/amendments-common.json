@@ -15,16 +15,16 @@
     "potions_mixing": "ON",
     "potion_mixing_limit": 8,
     "inverse_potions": {
-      "minecraft:instant_damage": "minecraft:instant_health",
+      "minecraft:speed": "minecraft:slowness",
+      "minecraft:weakness": "minecraft:strength",
+      "minecraft:haste": "minecraft:mining_fatigue",
       "minecraft:unluck": "minecraft:luck",
+      "minecraft:luck": "minecraft:unluck",
       "minecraft:mining_fatigue": "minecraft:haste",
       "minecraft:strength": "minecraft:weakness",
+      "minecraft:instant_damage": "minecraft:instant_health",
       "minecraft:instant_health": "minecraft:instant_damage",
-      "minecraft:speed": "minecraft:slowness",
-      "minecraft:slowness": "minecraft:speed",
-      "minecraft:luck": "minecraft:unluck",
-      "minecraft:haste": "minecraft:mining_fatigue",
-      "minecraft:weakness": "minecraft:strength"
+      "minecraft:slowness": "minecraft:speed"
     },
     "connect_to_fences": true
   },
@@ -51,7 +51,6 @@
     "wall_lanterns": true,
     "high_priority": true,
     "mod_blacklist": [
-      "bbb",
       "extlights",
       "betterendforge",
       "spelunkery",
@@ -61,7 +60,7 @@
       "beautify"
     ],
     "id_whitelist": [
-      "enlightened_end:xenon_lantern"
+      ""
     ],
     "falling_lanterns": "ON"
   },
